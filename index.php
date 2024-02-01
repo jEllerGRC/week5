@@ -12,8 +12,13 @@
     //Instantiate Fat-Free framework (F3)
     $f3 = Base::instance(); //static method call
 
+    //default route
     $f3 -> route ("GET /", function()
     {
-       echo "Week 5";
+//       echo "Week 5";
+
+       //Display a view
+        $view = new Template();
+        echo $view -> render ("views/home.html");
     });
 ?>
