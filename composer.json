@@ -1,0 +1,15 @@
+{
+  "name" : "poweredbymonster/328/week5",
+  "description" : "Something...",
+  "authors" :
+  [
+    {
+      "name" : "Jared Eller",
+      "email" : "eller.jared@student.greenriver.edu"
+    }
+  ],
+  "require" :
+  {
+    "bcosca/fatfree-core" : "dev-master"
+  }
+}
